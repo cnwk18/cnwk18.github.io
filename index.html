@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        
         <title>
             This is Gabriel's Website!</title>
             <style>
@@ -14,8 +15,18 @@
                     width: 800px;
                     background-color: aqua;
                 }
+                .sticky {
+                  position: -webkit-sticky; /* Safari */
+                  position: sticky;
+                  top: 0;
+                  background-color: red;
+                  border: 2px solid #4CAF50; 
+                }
+                
             </style>
+   
     </head>
+    
     <body>
          <h1>Welcome to my web!</h1>
         <p>
@@ -23,6 +34,8 @@
             
             <b>COOL SITEZ</b>
         </p>
+        <h1 class="sticky">Don't forget to follow theprohunter457 and fortyfortyfourfive and stavplayz on roblox!
+        theprohunter has a TikTok account!@jakeisaprodigy and YouTube!thelegendarygamer.</h1>
         
         Vds nd stf
         <div class="content">
@@ -33,7 +46,18 @@
         </div>
         <b>Kudos to you if you watched the entire third video without hitting pause...</b>
         
-        <p>WEBSITES!!!!!!!!!!!!!!</p>
-<ahref= "https://theuselessweb.com/"></ahref>
-    </body>
-</html>
+        <h1>Time Spender!<h1>
+            <button onclick="score()">Score!</button>
+            <h3 id="score">0</h3>
+        
+        <p>WEBSITES!!!!!!!!!!!!!!
+            <a href= "https://theuselessweb.com/"></a></p>
+     </body>
+            <script>
+                var points = 0;
+            function score(){
+                points++;
+                document.getElementById("score").innerHTML = points;
+            }
+            </script>
+            </html>
